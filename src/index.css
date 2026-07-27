@@ -487,6 +487,38 @@ a {
   font-size: 14px;
 }
 
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.checklist li::before {
+  margin-right: 8px;
+}
+
+.checklist li.done {
+  color: var(--text-h);
+}
+
+.checklist li.done::before {
+  content: '[x]';
+  color: var(--accent);
+}
+
+.checklist li.pending {
+  color: var(--text-dim);
+}
+
+.checklist li.pending::before {
+  content: '[ ]';
+  color: var(--text-dim);
+}
+
 .tag-list {
   list-style: none;
   display: flex;

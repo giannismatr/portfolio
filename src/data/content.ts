@@ -69,13 +69,34 @@ export const certifications: Certification[] = [
   { name: 'Microsoft 365 Certified: Fundamentals', code: 'MS-900' },
 ];
 
+export type ChecklistItem = {
+  label: string;
+  done: boolean;
+};
+
 export type Project = {
   title: string;
   description: string;
   tags: string[];
+  checklist?: ChecklistItem[];
 };
 
 export const projects: Project[] = [
+  {
+    title: 'Microsoft Entra ID Identity & Access Governance Lab',
+    description:
+      'A hands-on lab simulating enterprise identity governance in Microsoft Entra ID — group management, privileged access, and Conditional Access enforcement.',
+    tags: ['Microsoft Entra ID', 'PIM', 'Conditional Access', 'RBAC', 'Access Reviews'],
+    checklist: [
+      { label: 'Dynamic groups', done: true },
+      { label: 'Static business groups', done: true },
+      { label: 'Role-assignable groups', done: true },
+      { label: 'Privileged Identity Management (PIM)', done: true },
+      { label: 'Group-based role assignment', done: true },
+      { label: 'Conditional Access (MFA for admins)', done: true },
+      { label: 'Access Reviews', done: false },
+    ],
+  },
   {
     title: 'Multi-VNet Network Architecture Lab',
     description:
