@@ -3,7 +3,7 @@ export const profile = {
   title: 'IT Support Engineer',
   tagline:
     'Seeking an Azure Administrator role focused on secure, reliable, and well-governed cloud environments.',
-  bio: 'Azure-focused IT professional with 3 years of enterprise consulting experience across banking, pharmaceutical, and engineering environments. Hands-on experience managing Microsoft 365 and Microsoft Entra ID, including RBAC, MFA, and Conditional Access policies. Microsoft certified (AZ-104, MS-900, AZ-900) and currently preparing for CompTIA Security+ to deepen my knowledge in security.',
+  bio: 'Azure-focused IT professional with 3 years of enterprise consulting experience across banking, pharmaceutical, and engineering environments. Hands-on experience managing Microsoft 365 and Microsoft Entra ID, including RBAC, MFA, and Conditional Access policies.',
   location: 'Brussels, Belgium',
   email: 'matrozosgiannis1@gmail.com',
   linkedin: 'https://www.linkedin.com/in/giannis-matrozos-45a109264/',
