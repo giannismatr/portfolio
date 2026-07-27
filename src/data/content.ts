@@ -102,6 +102,12 @@ export const projects: Project[] = [
     description:
       'Designed and deployed multiple Azure Virtual Networks interconnected via VNet peering, implemented custom User Defined Routes (UDRs) to control traffic flow, and deployed Network Virtual Appliances (NVAs) for traffic inspection and routing.',
     tags: ['Azure', 'VNet Peering', 'UDRs', 'NVAs'],
+    checklist: [
+      { label: 'Multiple Azure Virtual Networks', done: true },
+      { label: 'VNet peering', done: true },
+      { label: 'Custom User Defined Routes (UDRs)', done: true },
+      { label: 'Network Virtual Appliances (NVAs)', done: true },
+    ],
   },
 ];
 
