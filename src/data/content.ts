@@ -94,7 +94,7 @@ export const projects: Project[] = [
       { label: 'Privileged Identity Management (PIM)', done: true },
       { label: 'Group-based role assignment', done: true },
       { label: 'Conditional Access (MFA for admins)', done: true },
-      { label: 'Access Reviews', done: false },
+      { label: 'Access Reviews', done: true },
     ],
   },
   {
