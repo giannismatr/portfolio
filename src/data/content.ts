@@ -79,6 +79,8 @@ export type Project = {
   description: string;
   tags: string[];
   checklist?: ChecklistItem[];
+  link?: string;
+  linkLabel?: string;
 };
 
 export const projects: Project[] = [
@@ -87,6 +89,8 @@ export const projects: Project[] = [
     description:
       'A hands-on lab simulating enterprise identity governance in Microsoft Entra ID — group management, privileged access, and Conditional Access enforcement.',
     tags: ['Microsoft Entra ID', 'PIM', 'Conditional Access', 'RBAC', 'Access Reviews'],
+    link: 'https://matrozos.bearblog.dev/building-an-enterprise-identity-governance-lab-with-microsoft-entra-id-p2/',
+    linkLabel: 'Read the write-up',
     checklist: [
       { label: 'Dynamic groups', done: true },
       { label: 'Static business groups', done: true },

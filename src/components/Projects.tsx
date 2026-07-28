@@ -26,6 +26,11 @@ export default function Projects() {
                   </li>
                 ))}
               </ul>
+              {project.link && (
+                <a className="project-link" href={project.link} target="_blank" rel="noreferrer">
+                  {project.linkLabel ?? 'View project'} →
+                </a>
+              )}
             </article>
           ))}
         </div>

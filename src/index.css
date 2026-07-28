@@ -536,6 +536,12 @@ a {
   font-size: 12px;
 }
 
+.project-link {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: auto;
+}
+
 /* Education */
 .education-list {
   list-style: none;
