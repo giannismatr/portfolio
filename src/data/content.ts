@@ -89,6 +89,8 @@ export const projects: Project[] = [
     description:
       'A Logic App that automates new-hire onboarding — creating users in Microsoft Entra ID via the Microsoft Graph API and routing them into the correct department group through attribute-based dynamic membership, with an email notification once onboarding completes.',
     tags: ['Azure Logic Apps', 'Microsoft Graph API', 'Microsoft Entra ID', 'Automation', 'Dynamic Groups'],
+    link: 'https://matrozos.bearblog.dev/azureidentityblog/',
+    linkLabel: 'Read the write-up',
     checklist: [
       { label: 'HTTP-triggered Logic App', done: true },
       { label: 'App registration with Graph API permissions', done: true },
